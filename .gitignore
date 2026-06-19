@@ -4,8 +4,8 @@
 .obsidian/
 .obsidian/workspace*
 
-# ---- 本地 Claude Code 覆盖（可能含绝对路径）----
-.claude/settings.local.json
+# ---- Claude Code 本地配置（含绝对路径/权限，属于各自环境，整目录不上传）----
+.claude/
 
 # ---- 会话临时文件 ----
 temp/*
