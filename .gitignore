@@ -1,0 +1,33 @@
+# ---- OS / editor ----
+.DS_Store
+**/.DS_Store
+.obsidian/
+.obsidian/workspace*
+
+# ---- 本地 Claude Code 覆盖（可能含绝对路径）----
+.claude/settings.local.json
+
+# ---- 会话临时文件 ----
+temp/*
+!temp/.gitkeep
+
+# ---- raw/ 是你私有、可能受版权的输入，永不公开；只保留骨架 ----
+raw/**
+!raw/**/
+!raw/.gitkeep
+!raw/README.md
+
+# ---- 你自己生成的 wiki 笔记：留骨架，忽略内容 ----
+wiki/papers/*
+wiki/concepts/*
+wiki/connections/*
+wiki/questions/*
+wiki/claims/*
+wiki/reading_missions/*
+wiki/concept_debt/*
+!wiki/**/.gitkeep
+!wiki/**/index.md
+
+# ---- 你自己的课程记录：留 index/log，忽略每门课数据 ----
+courses/*/
+!courses/*/.gitkeep
